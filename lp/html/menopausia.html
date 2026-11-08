@@ -1,0 +1,86 @@
+<!DOCTYPE html><html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Talerz w równowadze</title><meta name="robots" content="noindex,nofollow"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,800;9..144,900&family=Inter:wght@400;600;700;800&display=swap"><style>
+:root{--bg:#fbf3e6;--ink:#2a1a22;--ac:#6b2d5c;--tint:#f3e6ef;--hl:#f2b134;--cta:#f2b134;--ctat:#2a1a22;--mut:#5d5560;--line:rgba(0,0,0,.09)}
+*{box-sizing:border-box}html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.lp{max-width:760px;margin:0 auto;overflow:hidden}
+.lp h1,.lp h2,.lp h3,.pclose{text-wrap:balance}
+.lp h1,.lp h2,.lp h3{font-family:Fraunces,Georgia,"Times New Roman",serif;line-height:1.15;margin:0;color:var(--ink)}
+.lp img{display:block;max-width:100%;height:auto}
+.lp a{color:inherit}
+.top{padding:14px 20px;text-align:center;background:var(--ac);color:#fff;font-weight:800;letter-spacing:.14em;text-transform:uppercase;font-size:12px}
+.sec{padding:44px 20px}
+.sec h2{font-size:28px;text-align:center;margin-bottom:22px}
+.hero{padding:34px 20px 40px;text-align:center;background:linear-gradient(180deg,var(--tint),var(--bg))}
+.kick{display:inline-block;background:var(--ac);color:#fff;font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;padding:7px 14px;border-radius:99px}
+.hero h1{font-size:31px;margin:18px 0 12px;font-weight:800}
+.hero p.sub{font-size:18px;margin:0 auto 22px;max-width:560px;color:#3a2f36}
+.cover{position:relative;width:230px;margin:6px auto 26px}
+.cover img{border-radius:6px;box-shadow:0 18px 34px rgba(0,0,0,.28),0 3px 8px rgba(0,0,0,.18);transform:rotate(-2.5deg)}
+.cover:after{content:"";position:absolute;inset:auto 8% -14px 8%;height:14px;background:rgba(0,0,0,.12);filter:blur(8px);border-radius:50%}
+.btn{display:block;width:100%;max-width:440px;margin:0 auto;background:var(--cta);color:var(--ctat)!important;text-align:center;text-decoration:none;font-weight:800;font-size:19px;padding:19px 18px;border-radius:14px;box-shadow:0 6px 0 rgba(0,0,0,.18),0 12px 22px rgba(0,0,0,.14);border:0;line-height:1.25}
+.btn:active{transform:translateY(3px);box-shadow:0 3px 0 rgba(0,0,0,.18)}
+.trust{display:flex;flex-wrap:wrap;gap:8px 16px;justify-content:center;margin:20px 0 0;padding:0;list-style:none;font-size:13.5px;font-weight:600;color:var(--mut)}
+.trust li:before{content:"\2713";color:var(--ac);font-weight:900;margin-right:6px}
+.disc{font-size:12.5px;color:var(--mut);margin:16px auto 0;max-width:520px}
+.pain{background:#fff}
+.pimg{border-radius:18px;margin:0 0 22px;width:100%;aspect-ratio:4/3;object-fit:cover}
+.pcard{display:flex;gap:14px;align-items:flex-start;background:var(--bg);border-radius:14px;padding:15px 16px;margin:0 0 11px;border:1px solid var(--line)}
+.pcard i{flex:none;width:28px;height:28px;border-radius:50%;background:var(--ac);color:#fff;font-style:normal;font-weight:900;display:grid;place-items:center;font-size:15px;margin-top:1px}
+.pcard span{font-size:16.5px}
+.pclose{margin:24px 0 0;text-align:center;font-family:Fraunces,Georgia,serif;font-size:21px;font-weight:700;line-height:1.3}
+.pclose mark{background:linear-gradient(transparent 55%,var(--hl) 55%);color:inherit;padding:0 2px}
+.ben{background:var(--tint)}
+.bcard{background:#fff;border-radius:20px;overflow:hidden;margin:0 0 18px;box-shadow:0 4px 18px rgba(0,0,0,.07)}
+.bcard img{width:100%;aspect-ratio:16/10;object-fit:cover}
+.bcard div{padding:16px 18px 20px}.bcard h3{font-size:21px;margin-bottom:6px}.bcard p{margin:0;color:#3a2f36}
+.chips{display:flex;flex-wrap:wrap;gap:9px;justify-content:center;margin:22px 0 0;padding:0;list-style:none}
+.chips li{background:#fff;border:1px solid var(--line);border-radius:99px;padding:8px 14px;font-size:14px;font-weight:600}
+.chips li:before{content:"\2713";color:var(--ac);font-weight:900;margin-right:7px}
+.bon{background:#fff}
+.bocard{display:flex;gap:16px;align-items:center;border:2px dashed var(--ac);border-radius:18px;padding:14px;margin:0 0 14px;background:var(--bg)}
+.bocard img{flex:none;border-radius:12px;box-shadow:0 8px 18px rgba(0,0,0,.22)}.bocard img.bm{width:128px;height:128px}.bocard img.bc{width:96px;height:auto}
+.bt{display:inline-block;background:var(--hl);color:#2a1a22;font-size:11px;font-weight:900;letter-spacing:.06em;text-transform:uppercase;border-radius:6px;padding:3px 8px;margin-bottom:5px}
+.mock{max-width:380px;margin:4px auto 24px}.mock img{width:100%;height:auto;border-radius:22px;box-shadow:0 18px 36px rgba(0,0,0,.25)}
+.inb{list-style:none;margin:0 0 22px;padding:0;font-size:14.5px;color:#3a2f36}.inb li{padding:7px 0 7px 22px;position:relative}.inb b{display:block;color:var(--ink)}.inb li:before{content:'+';position:absolute;left:4px;color:var(--ac);font-weight:900}
+.bocard h3{font-size:18px;margin-bottom:3px}.bocard p{margin:0;font-size:15px;color:#3a2f36}
+.note{font-size:13.5px;color:var(--mut);text-align:center;margin:14px 0 0}
+.offer{background:var(--ac);color:#fff}
+.offer h2{color:#fff}
+.ocard{background:#fff;color:var(--ink);border-radius:24px;padding:26px 20px 28px;box-shadow:0 18px 40px rgba(0,0,0,.28)}
+.ocard .cover{width:170px;margin-top:0}
+.ocard h3{font-size:22px;text-align:center;margin-bottom:14px}
+.price{text-align:center;margin:6px 0 4px}
+.price .old{display:inline-block;font-size:21px;color:#8d8590;text-decoration:line-through;margin-right:10px}
+.price .new{font-family:Fraunces,Georgia,serif;font-size:56px;font-weight:900;line-height:1;color:var(--ac)}
+.price .off{display:inline-block;vertical-align:middle;margin-left:10px;background:#d6263b;color:#fff;font-size:14px;font-weight:900;border-radius:8px;padding:5px 9px}
+.ccy{text-align:center;font-size:14px;color:var(--mut);margin:6px 0 18px}
+.incl{list-style:none;margin:0 0 22px;padding:0;counter-reset:s}
+.incl li{counter-increment:s;position:relative;padding:12px 0 12px 46px;border-top:1px solid var(--line);font-size:16px}
+.incl li:before{content:counter(s);position:absolute;left:0;top:11px;width:32px;height:32px;border-radius:50%;background:var(--tint);color:var(--ac);font-weight:900;display:grid;place-items:center}
+.pay{display:flex;flex-wrap:wrap;gap:7px;justify-content:center;margin:18px 0 6px;padding:0;list-style:none}
+.pay li{border:1px solid var(--line);border-radius:8px;padding:5px 10px;font-size:12.5px;font-weight:700;color:#444;background:#fafafa}
+.secure{text-align:center;font-size:13px;color:var(--mut);margin:0}
+.gar{display:flex;gap:16px;align-items:center;background:var(--tint);border-radius:18px;padding:20px 18px;margin-top:22px}
+.seal{flex:none;width:72px;height:72px;border-radius:50%;background:var(--ac);color:#fff;display:grid;place-items:center;text-align:center;font-weight:900;line-height:1;border:4px double var(--hl)}
+.seal b{display:block;font-size:26px;font-family:Fraunces,Georgia,serif}.seal small{font-size:10px;letter-spacing:.08em}
+.gar h3{font-size:20px;margin-bottom:5px}.gar p{margin:0;font-size:15px;color:var(--ink)}
+.how{display:grid;gap:12px;margin:0;padding:0;list-style:none;counter-reset:h}
+.how li{counter-increment:h;display:flex;gap:14px;align-items:center;font-size:16.5px;background:#fff;border-radius:14px;padding:14px 16px;border:1px solid var(--line)}
+.how li:before{content:counter(h);flex:none;width:34px;height:34px;border-radius:50%;background:var(--hl);color:#2a1a22;font-weight:900;display:grid;place-items:center}
+.strip{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:26px 0 0}
+.strip img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:12px}
+.for{background:#fff;border-radius:16px;padding:16px 18px;margin:22px 0 0;font-size:15.5px;border-left:5px solid var(--ac)}
+.faq details{background:#fff;border:1px solid var(--line);border-radius:14px;margin:0 0 10px;padding:0}
+.faq summary{cursor:pointer;list-style:none;padding:16px 46px 16px 16px;font-weight:700;font-size:16.5px;position:relative}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary:after{content:"+";position:absolute;right:16px;top:50%;transform:translateY(-50%);font-size:24px;color:var(--ac);font-weight:700}
+.faq details[open] summary:after{content:"\2212"}
+.faq p{margin:0;padding:0 16px 16px;color:#3a2f36;font-size:15.5px}
+.final{text-align:center;background:var(--tint)}
+.final h2{font-size:27px;margin-bottom:20px}
+.foot{background:#1d1418;color:#d9d0d4;padding:34px 20px 40px;font-size:13px;text-align:center}
+.foot a{color:#fff;text-decoration:underline;margin:0 6px;display:inline-block}
+.foot p{margin:10px auto;max-width:560px;line-height:1.55}
+.foot .links{line-height:2.1}.foot b{color:#fff}
+@media(min-width:700px){.hero h1{font-size:40px}.sec h2{font-size:34px}.bgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.bgrid .bcard{margin:0}.how{grid-template-columns:repeat(3,1fr)}.how li{flex-direction:column;text-align:center}}
+</style></head><body><div class="lp"><div class="top">Velvet Packs</div><header class="hero"><span class="kick">E-book · dostęp od razu</span><h1>Talerz w równowadze</h1><p class="sub">Skrojony plan posiłków: talerz bazowy z porcjami z dłoni, pory posiłków, lista zakupów i jadłospis na 7 dni. Bez skrajnych diet.</p><div class="mock"><img src="https://cdn.jsdelivr.net/gh/ilaidai/cdn-creativos@51e6b8cc2360cdabc392e788c7e1a11d0ee02098/lp/menopausia/hero.jpg" width="380" height="380" alt="Talerz w równowadze" fetchpriority="high"></div><a class="btn" href="#oferta">Chcę e-booka za 69 PLN</a><ul class="trust"><li>Natychmiastowy dostęp po płatności</li><li>30 dni gwarancji</li><li>BLIK, karta, Apple Pay</li></ul><p class="disc">Przewodnik po odżywianiu i nawykach; nie zastępuje porady lekarza.</p></header><section class="sec pain"><h2>Z czym mierzy się wiele osób</h2><img class="pimg" src="https://cdn.jsdelivr.net/gh/ilaidai/cdn-creativos@51e6b8cc2360cdabc392e788c7e1a11d0ee02098/lp/menopausia/pain.jpg" alt="" loading="lazy"><div class="pcard"><i>!</i><span>Wiele kobiet między 45. a 55. rokiem życia je jak zawsze, a waga idzie w górę, zwłaszcza w okolicy brzucha.</span></div><div class="pcard"><i>!</i><span>Często pojawia się jedna dieta po drugiej, a żadna nie daje się utrzymać.</span></div><div class="pcard"><i>!</i><span>Liczenie kalorii męczy, a skrajne diety nie pasują do codziennego życia.</span></div><div class="pcard"><i>!</i><span>Najprościej byłoby wiedzieć, co postawić na talerzu i kiedy.</span></div><p class="pclose"><mark>Nie musisz liczyć kalorii ani gotować dziwnych potraw. Wystarczy powtarzalny talerz.</mark></p></section><section class="sec ben"><h2>Co zyskasz</h2><div class="bgrid"><div class="bcard"><img src="https://cdn.jsdelivr.net/gh/ilaidai/cdn-creativos@51e6b8cc2360cdabc392e788c7e1a11d0ee02098/lp/menopausia/b1.jpg" alt="" loading="lazy"><div><h3>Talerz, który łatwo powtarzać</h3><p>Porcje mierzone dłonią, bez wagi i bez liczenia kalorii.</p></div></div><div class="bcard"><img src="https://cdn.jsdelivr.net/gh/ilaidai/cdn-creativos@51e6b8cc2360cdabc392e788c7e1a11d0ee02098/lp/menopausia/b2.jpg" alt="" loading="lazy"><div><h3>Uporządkowane pory posiłków</h3><p>Prosty rytm dnia zamiast chaosu i podjadania.</p></div></div><div class="bcard"><img src="https://cdn.jsdelivr.net/gh/ilaidai/cdn-creativos@51e6b8cc2360cdabc392e788c7e1a11d0ee02098/lp/menopausia/b3.jpg" alt="" loading="lazy"><div><h3>Gotowy tydzień od pierwszego dnia</h3><p>Jadłospis na 7 dni i lista zakupów ze zwykłego sklepu.</p></div></div></div><ul class="chips"><li>5 prostych przepisów</li><li>Spiżarnia i lista zakupów na tydzień</li><li>Czytasz na telefonie, tablecie lub komputerze</li></ul><div style="margin-top:28px"><a class="btn" href="#oferta">Chcę e-booka za 69 PLN</a></div></section><section class="sec bon"><h2>Bonusy w zestawie</h2><div class="bocard"><img src="https://cdn.jsdelivr.net/gh/ilaidai/cdn-creativos@51e6b8cc2360cdabc392e788c7e1a11d0ee02098/lp/menopausia/bono1.jpg" alt="Niedziela z garnkiem: 90 minut gotowania na zapas" loading="lazy" class="bm"><div><span class="bt">Bonus 1</span><h3>Niedziela z garnkiem: 90 minut gotowania na zapas</h3><p>Plan na niedzielę: 90 minut gotowania, z którego składasz 5 różnych posiłków w tygodniu, z harmonogramem i kartą do wydruku.</p></div></div><p class="note">Bonusy dostajesz razem z e-bookiem, bez dopłaty.</p></section><section class="sec offer" id="oferta"><h2>Twój e-book i cena</h2><div class="ocard"><div class="cover"><img src="https://cdn.jsdelivr.net/gh/ilaidai/cdn-creativos@51e6b8cc2360cdabc392e788c7e1a11d0ee02098/lp/menopausia/cover.jpg" width="170" alt="" loading="lazy"></div><h3>Talerz w równowadze</h3><div class="price"><span class="old" aria-label="Przed">139 PLN</span><span class="new">69 PLN</span><span class="off">-50%</span></div><p class="ccy">Jednorazowa płatność · bez subskrypcji</p><h3 style="font-size:19px;text-align:left;margin:4px 0 8px">Co zawiera</h3><ol class="incl"><li>Zrozum swój moment: co się zmienia między 45. a 55. rokiem życia.</li><li>Twój talerz bazowy i porcje mierzone dłonią.</li><li>Porządek i pory posiłków.</li><li>Spiżarnia i lista zakupów na tydzień.</li><li>Przykładowy tydzień jadłospisów i 5 przepisów.</li></ol><a class="btn" href="https://men.velvetpacks.com/checkout" data-checkout>Chcę e-booka za 69 PLN</a><ul class="pay"><li>BLIK</li><li>Visa</li><li>Mastercard</li><li>Apple Pay</li><li>Google Pay</li></ul><p class="secure">Bezpieczna, szyfrowana płatność · dostęp mailem od razu</p><div class="gar"><div class="seal"><div><b>30</b><small>DNI</small></div></div><div><h3>Gwarancja 30 dni</h3><p>Wypróbuj przez 30 dni. Jeśli e-book Ci nie posłuży, napisz na soporte@jeroviallc.com, a zwrócimy Ci pieniądze, bez niewygodnych pytań.</p></div></div></div></section><section class="sec"><h2>Jak to działa</h2><ol class="how"><li>Kupujesz i od razu dostajesz dostęp na e-mail.</li><li>Czytasz jeden krok na raz, na telefonie lub komputerze.</li><li>Wprowadzasz go w życie od pierwszego dnia.</li></ol><div class="strip"><img src="https://cdn.jsdelivr.net/gh/ilaidai/cdn-creativos@51e6b8cc2360cdabc392e788c7e1a11d0ee02098/lp/menopausia/s1.jpg" alt="" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/ilaidai/cdn-creativos@51e6b8cc2360cdabc392e788c7e1a11d0ee02098/lp/menopausia/s2.jpg" alt="" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/ilaidai/cdn-creativos@51e6b8cc2360cdabc392e788c7e1a11d0ee02098/lp/menopausia/s3.jpg" alt="" loading="lazy"></div><p class="for">Dla kobiet 45+, które chcą uporządkować talerz i pory posiłków, bez liczenia kalorii i bez dziwnych potraw.</p></section><section class="sec faq" style="background:#fff"><h2>Najczęstsze pytania</h2><details><summary>Dla kogo jest ten e-book?</summary><p>Dla kobiet 45+, które chcą uporządkować talerz, pory posiłków i zakupy, bez dziwnych potraw.</p></details><details><summary>Czy muszę dużo gotować?</summary><p>Nie. Przepisy są proste i ze zwykłych składników.</p></details><details><summary>Czy zastępuje lekarza?</summary><p>Nie. To przewodnik po odżywianiu; w razie wątpliwości zdrowotnych skonsultuj się z lekarzem.</p></details><details><summary>Jak go otrzymam?</summary><p>E-mailem i na ekranie, zaraz po płatności.</p></details><details><summary>A jeśli mi się nie spodoba?</summary><p>Masz 30 dni gwarancji.</p></details></section><section class="sec final"><h2>Zacznij w tym tygodniu od jednego kroku.</h2><a class="btn" href="https://men.velvetpacks.com/checkout" data-checkout>Chcę e-booka za 69 PLN</a><ul class="pay"><li>BLIK</li><li>Visa</li><li>Mastercard</li><li>Apple Pay</li><li>Google Pay</li></ul><p class="secure">Wypróbuj przez 30 dni. Jeśli e-book Ci nie posłuży, napisz na soporte@jeroviallc.com, a zwrócimy Ci pieniądze, bez niewygodnych pytań.</p></section><footer class="foot"><div class="links"><a href="https://men.velvetpacks.com/regulamin">Regulamin</a><a href="https://men.velvetpacks.com/polityka-prywatnosci">Polityka prywatności</a><a href="https://men.velvetpacks.com/zwroty">Zwroty i gwarancja 30 dni</a><a href="https://men.velvetpacks.com/kontakt">Kontakt</a></div><p><b>JEROVIA LLC</b> · soporte@jeroviallc.com</p><p>Przewodnik po odżywianiu i nawykach; nie zastępuje porady lekarza.</p><p>Produkt cyfrowy z natychmiastowym dostępem. Gwarancja zwrotu pieniędzy przez 30 dni.</p><p>© 2026 JEROVIA LLC. Wszelkie prawa zastrzeżone.</p></footer></div></body></html>
