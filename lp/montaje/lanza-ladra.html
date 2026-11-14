@@ -1,0 +1,86 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Mi perro ladra a todo: cómo enseñarle a callar</title><meta name="robots" content="noindex,nofollow"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,800;9..144,900&family=Inter:wght@400;600;700;800&display=swap"><style>
+:root{--bg:#f5f8f4;--ink:#0f2e24;--ac:#1d4a3a;--tint:#e3eee7;--hl:#e3b857;--cta:#1d4a3a;--ctat:#ffffff;--mut:#5d5560;--line:rgba(0,0,0,.09)}
+*{box-sizing:border-box}html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.lp{max-width:760px;margin:0 auto;overflow:hidden}
+.lp h1,.lp h2,.lp h3,.pclose{text-wrap:balance}
+.lp h1,.lp h2,.lp h3{font-family:Fraunces,Georgia,"Times New Roman",serif;line-height:1.15;margin:0;color:var(--ink)}
+.lp img{display:block;max-width:100%;height:auto}
+.lp a{color:inherit}
+.top{padding:14px 20px;text-align:center;background:var(--ac);color:#fff;font-weight:800;letter-spacing:.14em;text-transform:uppercase;font-size:12px}
+.sec{padding:44px 20px}
+.sec h2{font-size:28px;text-align:center;margin-bottom:22px}
+.hero{padding:34px 20px 40px;text-align:center;background:linear-gradient(180deg,var(--tint),var(--bg))}
+.kick{display:inline-block;background:var(--ac);color:#fff;font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;padding:7px 14px;border-radius:99px}
+.hero h1{font-size:31px;margin:18px 0 12px;font-weight:800}
+.hero p.sub{font-size:18px;margin:0 auto 22px;max-width:560px;color:#3a2f36}
+.cover{position:relative;width:230px;margin:6px auto 26px}
+.cover img{border-radius:6px;box-shadow:0 18px 34px rgba(0,0,0,.28),0 3px 8px rgba(0,0,0,.18);transform:rotate(-2.5deg)}
+.cover:after{content:"";position:absolute;inset:auto 8% -14px 8%;height:14px;background:rgba(0,0,0,.12);filter:blur(8px);border-radius:50%}
+.btn{display:block;width:100%;max-width:440px;margin:0 auto;background:var(--cta);color:var(--ctat)!important;text-align:center;text-decoration:none;font-weight:800;font-size:19px;padding:19px 18px;border-radius:14px;box-shadow:0 6px 0 rgba(0,0,0,.18),0 12px 22px rgba(0,0,0,.14);border:0;line-height:1.25}
+.btn:active{transform:translateY(3px);box-shadow:0 3px 0 rgba(0,0,0,.18)}
+.trust{display:flex;flex-wrap:wrap;gap:8px 16px;justify-content:center;margin:20px 0 0;padding:0;list-style:none;font-size:13.5px;font-weight:600;color:var(--mut)}
+.trust li:before{content:"\2713";color:var(--ac);font-weight:900;margin-right:6px}
+.disc{font-size:12.5px;color:var(--mut);margin:16px auto 0;max-width:520px}
+.pain{background:#fff}
+.pimg{border-radius:18px;margin:0 0 22px;width:100%;aspect-ratio:4/3;object-fit:cover}
+.pcard{display:flex;gap:14px;align-items:flex-start;background:var(--bg);border-radius:14px;padding:15px 16px;margin:0 0 11px;border:1px solid var(--line)}
+.pcard i{flex:none;width:28px;height:28px;border-radius:50%;background:var(--ac);color:#fff;font-style:normal;font-weight:900;display:grid;place-items:center;font-size:15px;margin-top:1px}
+.pcard span{font-size:16.5px}
+.pclose{margin:24px 0 0;text-align:center;font-family:Fraunces,Georgia,serif;font-size:21px;font-weight:700;line-height:1.3}
+.pclose mark{background:linear-gradient(transparent 55%,var(--hl) 55%);color:inherit;padding:0 2px}
+.ben{background:var(--tint)}
+.bcard{background:#fff;border-radius:20px;overflow:hidden;margin:0 0 18px;box-shadow:0 4px 18px rgba(0,0,0,.07)}
+.bcard img{width:100%;aspect-ratio:16/10;object-fit:cover}
+.bcard div{padding:16px 18px 20px}.bcard h3{font-size:21px;margin-bottom:6px}.bcard p{margin:0;color:#3a2f36}
+.chips{display:flex;flex-wrap:wrap;gap:9px;justify-content:center;margin:22px 0 0;padding:0;list-style:none}
+.chips li{background:#fff;border:1px solid var(--line);border-radius:99px;padding:8px 14px;font-size:14px;font-weight:600}
+.chips li:before{content:"\2713";color:var(--ac);font-weight:900;margin-right:7px}
+.bon{background:#fff}
+.bocard{display:flex;gap:16px;align-items:center;border:2px dashed var(--ac);border-radius:18px;padding:14px;margin:0 0 14px;background:var(--bg)}
+.bocard img{flex:none;border-radius:12px;box-shadow:0 8px 18px rgba(0,0,0,.22)}.bocard img.bm{width:128px;height:128px}.bocard img.bc{width:96px;height:auto}
+.bt{display:inline-block;background:var(--hl);color:#2a1a22;font-size:11px;font-weight:900;letter-spacing:.06em;text-transform:uppercase;border-radius:6px;padding:3px 8px;margin-bottom:5px}
+.mock{max-width:380px;margin:4px auto 24px}.mock img{width:100%;height:auto;border-radius:22px;box-shadow:0 18px 36px rgba(0,0,0,.25)}
+.inb{list-style:none;margin:0 0 22px;padding:0;font-size:14.5px;color:#3a2f36}.inb li{padding:7px 0 7px 22px;position:relative}.inb b{display:block;color:var(--ink)}.inb li:before{content:'+';position:absolute;left:4px;color:var(--ac);font-weight:900}
+.bocard h3{font-size:18px;margin-bottom:3px}.bocard p{margin:0;font-size:15px;color:#3a2f36}
+.note{font-size:13.5px;color:var(--mut);text-align:center;margin:14px 0 0}
+.offer{background:var(--ac);color:#fff}
+.offer h2{color:#fff}
+.ocard{background:#fff;color:var(--ink);border-radius:24px;padding:26px 20px 28px;box-shadow:0 18px 40px rgba(0,0,0,.28)}
+.ocard .cover{width:170px;margin-top:0}
+.ocard h3{font-size:22px;text-align:center;margin-bottom:14px}
+.price{text-align:center;margin:6px 0 4px}
+.price .old{display:inline-block;font-size:21px;color:#8d8590;text-decoration:line-through;margin-right:10px}
+.price .new{font-family:Fraunces,Georgia,serif;font-size:56px;font-weight:900;line-height:1;color:var(--ac)}
+.price .off{display:inline-block;vertical-align:middle;margin-left:10px;background:#d6263b;color:#fff;font-size:14px;font-weight:900;border-radius:8px;padding:5px 9px}
+.ccy{text-align:center;font-size:14px;color:var(--mut);margin:6px 0 18px}
+.incl{list-style:none;margin:0 0 22px;padding:0;counter-reset:s}
+.incl li{counter-increment:s;position:relative;padding:12px 0 12px 46px;border-top:1px solid var(--line);font-size:16px}
+.incl li:before{content:counter(s);position:absolute;left:0;top:11px;width:32px;height:32px;border-radius:50%;background:var(--tint);color:var(--ac);font-weight:900;display:grid;place-items:center}
+.pay{display:flex;flex-wrap:wrap;gap:7px;justify-content:center;margin:18px 0 6px;padding:0;list-style:none}
+.pay li{border:1px solid var(--line);border-radius:8px;padding:5px 10px;font-size:12.5px;font-weight:700;color:#444;background:#fafafa}
+.secure{text-align:center;font-size:13px;color:var(--mut);margin:0}
+.gar{display:flex;gap:16px;align-items:center;background:var(--tint);border-radius:18px;padding:20px 18px;margin-top:22px}
+.seal{flex:none;width:72px;height:72px;border-radius:50%;background:var(--ac);color:#fff;display:grid;place-items:center;text-align:center;font-weight:900;line-height:1;border:4px double var(--hl)}
+.seal b{display:block;font-size:26px;font-family:Fraunces,Georgia,serif}.seal small{font-size:10px;letter-spacing:.08em}
+.gar h3{font-size:20px;margin-bottom:5px}.gar p{margin:0;font-size:15px;color:var(--ink)}
+.how{display:grid;gap:12px;margin:0;padding:0;list-style:none;counter-reset:h}
+.how li{counter-increment:h;display:flex;gap:14px;align-items:center;font-size:16.5px;background:#fff;border-radius:14px;padding:14px 16px;border:1px solid var(--line)}
+.how li:before{content:counter(h);flex:none;width:34px;height:34px;border-radius:50%;background:var(--hl);color:#2a1a22;font-weight:900;display:grid;place-items:center}
+.strip{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:26px 0 0}
+.strip img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:12px}
+.for{background:#fff;border-radius:16px;padding:16px 18px;margin:22px 0 0;font-size:15.5px;border-left:5px solid var(--ac)}
+.faq details{background:#fff;border:1px solid var(--line);border-radius:14px;margin:0 0 10px;padding:0}
+.faq summary{cursor:pointer;list-style:none;padding:16px 46px 16px 16px;font-weight:700;font-size:16.5px;position:relative}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary:after{content:"+";position:absolute;right:16px;top:50%;transform:translateY(-50%);font-size:24px;color:var(--ac);font-weight:700}
+.faq details[open] summary:after{content:"\2212"}
+.faq p{margin:0;padding:0 16px 16px;color:#3a2f36;font-size:15.5px}
+.final{text-align:center;background:var(--tint)}
+.final h2{font-size:27px;margin-bottom:20px}
+.foot{background:#1d1418;color:#d9d0d4;padding:34px 20px 40px;font-size:13px;text-align:center}
+.foot a{color:#fff;text-decoration:underline;margin:0 6px;display:inline-block}
+.foot p{margin:10px auto;max-width:560px;line-height:1.55}
+.foot .links{line-height:2.1}.foot b{color:#fff}
+@media(min-width:700px){.hero h1{font-size:40px}.sec h2{font-size:34px}.bgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.bgrid .bcard{margin:0}.how{grid-template-columns:repeat(3,1fr)}.how li{flex-direction:column;text-align:center}}
+</style></head><body><div class="lp"><div class="top">Velvet Packs</div><header class="hero"><span class="kick">Guía digital en PDF · acceso inmediato</span><h1>Mi perro ladra a todo: cómo enseñarle a callar</h1><p class="sub">Una guía en PDF, semana a semana, para entender por qué ladra tu perro y enseñarle una señal de silencio con ejercicios cortos en casa y en el paseo.</p><div class="mock" style="max-width:260px"><img src="https://raw.githubusercontent.com/ilaidai/cdn-creativos/53f967a4f2586fa65a7ef8d068fc0d3ae72289a2/lp/montaje-def/lanza-ladra/principal.jpg" width="260" height="390" alt="Mi perro ladra a todo: cómo enseñarle a callar" fetchpriority="high"></div><a class="btn" href="#oferta">Quiero la guía por 19,99 €</a><ul class="trust"><li>Acceso inmediato tras la compra</li><li>30 días de garantía</li><li>Pago seguro</li></ul><p class="disc">Guía de hábitos y método para dueños de perro. No sustituye al veterinario ni a un educador profesional: ante cualquier síntoma o duda, consulta con uno.</p></header><section class="sec pain"><h2>Lo que cuentan muchas personas</h2><div class="pcard"><i>!</i><span>Suena el timbre o pasa alguien por el rellano y tu perro arma un escándalo que no se acaba.</span></div><div class="pcard"><i>!</i><span>Cada ruido de la calle es una alarma, y llegas a casa con miedo a las quejas de los vecinos.</span></div><div class="pcard"><i>!</i><span>Has probado a gritarle o a ignorarlo, y no sabes qué hacer en su lugar.</span></div><div class="pcard"><i>!</i><span>Los consejos de internet se contradicen y ninguno te da un plan claro, día a día.</span></div><p class="pclose"><mark>Con un método sencillo y constancia, tu casa puede estar más tranquila.</mark></p></section><section class="sec ben"><h2>Lo que ganas</h2><div class="bgrid"><div class="bcard"><img src="https://raw.githubusercontent.com/ilaidai/cdn-creativos/53f967a4f2586fa65a7ef8d068fc0d3ae72289a2/lp/montaje-def/lanza-ladra/principal.jpg" alt="" loading="lazy" style="aspect-ratio:1/1;object-fit:cover;object-position:top"><div><h3>Entiende por qué ladra</h3><p>Distingue el ladrido de alerta, de aburrimiento o de emoción y cambia lo que sí depende de ti.</p></div></div><div class="bcard"><img src="https://raw.githubusercontent.com/ilaidai/cdn-creativos/53f967a4f2586fa65a7ef8d068fc0d3ae72289a2/lp/montaje-def/lanza-ladra/principal.jpg" alt="" loading="lazy" style="aspect-ratio:1/1;object-fit:cover;object-position:center"><div><h3>Plan de tres semanas</h3><p>Semana 1: bajar el volumen del entorno. Semana 2: enseñar la señal de silencio. Semana 3: controlar los ladridos de alerta.</p></div></div><div class="bcard"><img src="https://raw.githubusercontent.com/ilaidai/cdn-creativos/53f967a4f2586fa65a7ef8d068fc0d3ae72289a2/lp/montaje-def/lanza-ladra/principal.jpg" alt="" loading="lazy" style="aspect-ratio:1/1;object-fit:cover;object-position:bottom"><div><h3>Ejercicio mental y rutina</h3><p>Juegos de olfato y ejercicios cortos para cansarle sin revolucionarle, y un plan de mantenimiento.</p></div></div></div><ul class="chips"><li>6 capítulos</li><li>Listas de comprobación</li><li>Se lee en móvil, tablet u ordenador</li></ul><div style="margin-top:28px"><a class="btn" href="#oferta">Quiero la guía por 19,99 €</a></div></section><section class="sec bon"><h2>Bonos incluidos</h2><div class="bocard"><img src="https://raw.githubusercontent.com/ilaidai/cdn-creativos/53f967a4f2586fa65a7ef8d068fc0d3ae72289a2/lp/montaje-def/lanza-ladra/bono1.jpg" alt="Salir de casa en calma" loading="lazy" class="bc"><div><span class="bt">Bono 1</span><h3>Salir de casa en calma</h3><p>Rutinas graduales para las salidas de tu perro, en 6 capítulos.</p></div></div><div class="bocard"><img src="https://raw.githubusercontent.com/ilaidai/cdn-creativos/53f967a4f2586fa65a7ef8d068fc0d3ae72289a2/lp/montaje-def/lanza-ladra/bono2.jpg" alt="Pasear sin tirones" loading="lazy" class="bc"><div><span class="bt">Bono 2</span><h3>Pasear sin tirones</h3><p>Cómo enseñar a caminar con la correa floja, semana a semana.</p></div></div><div class="bocard"><img src="https://raw.githubusercontent.com/ilaidai/cdn-creativos/53f967a4f2586fa65a7ef8d068fc0d3ae72289a2/lp/montaje-def/lanza-ladra/bono3.jpg" alt="Miedo a los petardos: plan de calma" loading="lazy" class="bc"><div><span class="bt">Bono 3</span><h3>Miedo a los petardos: plan de calma</h3><p>Prepara Nochevieja y las fiestas con tu perro, hora a hora.</p></div></div><p class="note">Los bonos te llegan junto con la guía, sin coste añadido.</p></section><section class="sec offer" id="oferta"><h2>Tu guía y su precio</h2><div class="ocard"><div class="cover"><img src="https://raw.githubusercontent.com/ilaidai/cdn-creativos/53f967a4f2586fa65a7ef8d068fc0d3ae72289a2/lp/montaje-def/lanza-ladra/principal.jpg" width="170" alt="" loading="lazy"></div><h3>Mi perro ladra a todo: cómo enseñarle a callar</h3><div class="price"><span class="old" aria-label="Antes">39,99 €</span><span class="new">19,99 €</span><span class="off">-50%</span></div><p class="ccy">Pago único · sin suscripción</p><h3 style="font-size:19px;text-align:left;margin:4px 0 8px">Qué incluye</h3><ol class="incl"><li>Por qué ladra: antes de pedirle que calle.</li><li>Semana 1: bajar el volumen del entorno.</li><li>Semana 2: enseñar la señal de silencio.</li><li>Semana 3: controlar los ladridos de alerta.</li><li>Ejercicio mental, errores comunes y plan de mantenimiento.</li></ol><a class="btn" href="/checkout" data-checkout>Quiero la guía por 19,99 €</a><ul class="pay"><li>Tarjeta</li><li>Apple Pay</li><li>Google Pay</li></ul><p class="secure">Pago seguro y cifrado · acceso por correo al instante</p><div class="gar"><div class="seal"><div><b>30</b><small>DÍAS</small></div></div><div><h3>Garantía de 30 días</h3><p>Pruébalo 30 días. Si la guía no te sirve, escribes a soporte@jeroviallc.com y te devolvemos el importe.</p></div></div></div></section><section class="sec"><h2>Cómo funciona</h2><ol class="how"><li>Haces tu pedido y pagas de forma segura.</li><li>Te llega la guía al correo al instante.</li><li>Lo abres en el móvil, la tablet o el ordenador y empiezas hoy.</li></ol></section><section class="sec faq" style="background:#fff"><h2>Preguntas frecuentes</h2><details><summary>¿Sirve para cualquier perro?</summary><p>Es una guía de hábitos para perros con ladridos cotidianos. Si hay agresividad o dudas sobre su salud, consulta con un veterinario o un educador.</p></details><details><summary>¿Qué necesito?</summary><p>Premios pequeños, la correa de siempre y unos minutos al día. Sin material especial.</p></details><details><summary>¿Cómo lo recibo?</summary><p>Por correo y por enlace, justo después del pago.</p></details><details><summary>¿Y si no me convence?</summary><p>Tienes 30 días de garantía: escribes a soporte@jeroviallc.com y te devolvemos el importe.</p></details><details><summary>¿Quién vende?</summary><p>JEROVIA LLC. Contacto: soporte@jeroviallc.com.</p></details></section><section class="sec final"><h2>Esta semana, empieza a enseñarle a tu perro a callar.</h2><a class="btn" href="/checkout" data-checkout>Quiero la guía por 19,99 €</a><ul class="pay"><li>Tarjeta</li><li>Apple Pay</li><li>Google Pay</li></ul><p class="secure">Pruébalo 30 días. Si la guía no te sirve, escribes a soporte@jeroviallc.com y te devolvemos el importe.</p></section><footer class="foot"><div class="links"><a href="/terms">Términos del servicio</a><a href="/privacy">Política de privacidad</a><a href="/refund">Reembolso y garantía de 30 días</a><a href="/contact">Contacto</a></div><p><b>JEROVIA LLC</b> · soporte@jeroviallc.com</p><p>Guía de hábitos y método para dueños de perro. No sustituye al veterinario ni a un educador profesional: ante cualquier síntoma o duda, consulta con uno.</p><p>Producto digital de acceso inmediato. Garantía de devolución de 30 días.</p><p>© 2026 JEROVIA LLC. Todos los derechos reservados.</p></footer></div></body></html>
